@@ -1,0 +1,25 @@
+:root {
+  --mono: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-family: Inter, 'Segoe UI', Roboto, system-ui, sans-serif;
+  color: #54586d;
+  background: #f5f6fb;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
